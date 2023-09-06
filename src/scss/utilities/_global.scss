@@ -1,0 +1,18 @@
+@use 'variables' as v;
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1, h3, p, span{
+    font-family: v.$main_font;
+    font-size: v.$font-size;
+}
+
+strong{
+    font-weight: 800;
+}
